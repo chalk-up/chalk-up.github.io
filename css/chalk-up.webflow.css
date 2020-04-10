@@ -68,7 +68,7 @@ label {
   background-image: linear-gradient(270deg, #ff81f2, #ff3575);
 }
 
-.section.homepage.website-apps.section-chooser {
+.section.homepage.website-apps.categorychooser {
   margin-top: auto;
   margin-bottom: 40px;
   padding-top: 0px;
@@ -680,12 +680,12 @@ label {
   text-align: left;
 }
 
-.heading-4.left.website-apps {
+.heading-4.left.category-part {
   padding-left: 10px;
-  color: #eee;
+  color: #070a39;
 }
 
-.heading-4.left.website-apps.body-chooser {
+.heading-4.left.category-part.body-chooser {
   color: #070a39;
 }
 
@@ -1582,7 +1582,7 @@ label {
   font-weight: 500;
 }
 
-.column---website-apps {
+.column---category-parts {
   padding-right: 40px;
   padding-left: 0px;
 }
@@ -1717,6 +1717,8 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  max-height: 60px;
+  max-width: 100px;
   min-height: 60px;
   min-width: 100px;
   -webkit-box-pack: center;
@@ -1738,6 +1740,13 @@ label {
 .video-svg {
   color: #fff;
   line-height: 0px;
+}
+
+.lottie-animation {
+  max-height: 0px;
+  max-width: 0px;
+  min-height: 50px;
+  min-width: 50px;
 }
 
 html.w-mod-js *[data-ix="new-interaction-3"] {
@@ -2055,7 +2064,7 @@ html.w-mod-js *[data-ix="new-interaction-7"] {
     width: 100%;
     padding: 30px;
   }
-  .column---website-apps {
+  .column---category-parts {
     padding-right: 10px;
   }
   .vote-poty {
